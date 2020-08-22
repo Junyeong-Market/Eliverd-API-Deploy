@@ -11,5 +11,7 @@ services:
       DB_PW: Wb4H9nn542
       DB_HOST: donote.co
       DB_PORT: 3306
+      KAKAO_ADMIN: 6f56e7e4b349aaffb6f694bf9b24de28
+      KAKAOPAY_CID: TC0ONETIME
     restart: on-failure
     image: startergate/eliverd-api
