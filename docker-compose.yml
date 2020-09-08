@@ -13,5 +13,9 @@ services:
       DB_PORT: 3306
       KAKAO_ADMIN: 6f56e7e4b349aaffb6f694bf9b24de28
       KAKAOPAY_CID: TC0ONETIME
+      AWS_REGION: ap-northeast-2
+      AWS_STORAGE_BUCKET_NAME: eliverd-static
+      AWS_ACCESS_KEY_ID: AKIA4JD6MM5SZX3RRL4U
+      AWS_SECRET_ACCESS_KEY: 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
     restart: on-failure
     image: startergate/eliverd-api
